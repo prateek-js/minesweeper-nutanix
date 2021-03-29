@@ -1,4 +1,4 @@
-var Zone = function(element, x, y) {
+const Zone = function(element, x, y) {
     this.element = element;
     this.x = x;
     this.y = y;
@@ -18,7 +18,7 @@ var Zone = function(element, x, y) {
     }
  
     this.reveal = function() {
-       var className;
+       let className;
  
        this.setRevealed();
  
