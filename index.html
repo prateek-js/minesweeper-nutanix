@@ -7,5 +7,32 @@
    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
+   <h3>Minesweeper</h3>
+   <div class="main-game-wrapper">
+      <div class="select-game-style">
+         <select class="game-level">
+            <option value="beginner" selected>Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+         </select>
+      </div>
+      <div class="game-screen">
+         <div class="game-header">
+            <div class="game-mines">
+               <div class="game-mines-count">0</div>
+               <div>No of Mines</div>
+            </div>
+            <div class="game-timer">
+               <div class="game-time">0</div>
+               <div>Time Spent</div>
+            </div>
+         </div>
+         <div class="game-board"></div>
+         <div class="game-status"></div>
+         <div class="game-footer">
+            <button class="game-restart-button">Restart Game</button>
+         </div>
+      </div>
+   </div>
 </body>
 </html>
