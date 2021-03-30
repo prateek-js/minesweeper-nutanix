@@ -4,7 +4,6 @@ const Zone = function(element, x, y) {
     this.y = y;
     this.isMine = false;
     this.isRevealed = false;
-    this.isFlagged = false;
     this.isEmpty = false;
     this.mineCount = 0;
  
@@ -41,16 +40,6 @@ const Zone = function(element, x, y) {
        }
  
        this.element.classList.add(className);
-    }
- 
-    this.setFlagged = function() {
-       this.isFlagged = true;
-       this.element.classList.add('is-flagged');
-    }
- 
-    this.setUnflagged = function() {
-       this.isFlagged = false;
-       this.element.classList.remove('is-flagged');
     }
  
     this.setEmpty = function() {

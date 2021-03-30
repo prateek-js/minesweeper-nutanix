@@ -34,6 +34,13 @@ a {
    background: #fff url('/assets/images/arrowdown.gif') no-repeat 90% 50%;
 }
 
+.game-status {
+   display: inline-block;
+   margin-top: 1rem;
+   font-family: 'Open Sans', sans-serif;
+   color: #777;
+}
+
 .select-game-style select {
    padding: .5rem 2rem;
    border: none;
@@ -85,12 +92,13 @@ a {
 .game-screen .game-footer .game-restart-button {
    border: 0;
    background: #efbd62;
-   color: #6487d3;
+   color: #f8f8ff;
    border-radius: .2em;
    padding: .5rem 2rem;
    font-size: .9rem;
    cursor: pointer;
    outline: 0;
+   margin-top: 1rem;
 }
 
 .zone {
